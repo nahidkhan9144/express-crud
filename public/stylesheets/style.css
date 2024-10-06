@@ -1,8 +1,6 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+@tailwind base;
 
-a {
-  color: #00B7FF;
-}
+@tailwind components;
+
+@tailwind utilities; 
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRhaWx3aW5kLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAdGFpbHdpbmQgYmFzZTtcclxuXHJcbkB0YWlsd2luZCBjb21wb25lbnRzO1xyXG5cclxuQHRhaWx3aW5kIHV0aWxpdGllczsgIl19 */

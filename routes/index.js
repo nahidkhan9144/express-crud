@@ -4,5 +4,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express we' });
 });
+router.get('/topF', function(req, res, next) {
+  res.render('components/topFile', { title: 'Top File' });
+});
 
 module.exports = router;
